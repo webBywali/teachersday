@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Food Storage Inventory Management System</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="description" content="Traning, Placement, Redtorn, Web Application Development,Cloud-based Solution Developmnt, App Development">
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+	<style type="text/css">
+		<style type="text/css">
+		.carousel-inner img {
+			width: 70%;
+			height: 400px;
+		}
+	</style>
+</head>
+<body style="padding: 20px 20px 20px 20px; background-color: #cc00cc;">
+	<!--navigation bar-->
+<!--navigation bar-->
+<div class="bodyheader" style="background-color:#000000;padding: 10px;">
+	<div class="body-container body-top">
+		<div class="top-menu fls text-center text-black">
+			<!--<h2><b><i>FOOD STORAGE INVENTORY SYSTEM</i></b></h4>-->			
+		</div>
+	</div>
+</div>
+
+<div style="background-color:#666600; padding: 20px;">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<!--<a href="#">	
+					<img src="images/image6.jpg" class="img-fluid" style="max-width: 200px;"
+				</a>-->
+					<h2 class="text-white"><b><i>FOOD STORAGE INVENTORY SYSTEM</i></b></h4>
+				
+			</div>
+			<div class="col-md-4">
+					<form class="form-inline myleft" action="">
+						<input class="form-control mr-sm-2" type="text" placeholder="search">
+						<button class="btn-succcess" type="submit">Search &nbsp<i class="fa fa-search"></i></button>
+					</form>
+				
+			</div>
+			
+		</div>
+	
+		
+	</div>
+</div>
+<!-- Start Navigation Bar-->
+<nav class="navbar navbar-expand-lg" style="background-color:grey;">
+	<button class="navbar-toggler btn" type="button" data-toggle="collapse"
+	data-target="#mymenu">
+	<span class="navbar-toggler-icon"></span></button>
+
+	<div class="collapse navbar-collapse" id="mymenu">
+		<ul class="navbar-nav">
+			<li class="nav-item dropdown">
+				<div class="scene">
+					<div class="box">
+						<div class="front face">
+							<h1><i class="fa fa-home" style="color: yellow; text-align: center;"></i></h1>
+						</div>
+						<div class="right face">
+				<a href="" id="navbardrop" class="nav-link dropdown-toggle" data-toggle="dropdown" style="color: yellow;"><h5 style="color: yellow;">HOME</h5></a>
+						</div>
+					</div>
+				</div>
+			</li>
+
+
+			<li class="nav-item dropdown">
+				<div class="scene">
+					<div class="box">
+						<div class="front face">
+							<h1><i class="fa fa-product-hunt" style="color: yellow; text-align: center;"></i></h1>
+						</div>
+						<div class="right face">
+				<a href="" id="navbardrop" class="nav-link dropdown-toggle" data-toggle="dropdown" style="color: yellow;"><h5 style="color: yellow;"><b>Product</b></h5></a>
+						</div>
+					</div>
+				</div>
+			</li>
+
+			<li class="nav-item dropdown">
+				<div class="scene">
+					<div class="box">
+						<div class="front face">
+							<h1><i class=" fa fa-cart-plus" style="color: yellow; text-align: center;"></i></h1>
+						</div>
+						<div class="right face">
+							<a href="#" id="navbardrop" class="nav-link dropdown-toggle" data-toggle="dropdown" style="color: yellow;"><h5 style="color: yellow;"><b>Cart</b></h5></a>
+						</div>
+					</div>
+				</div>
+			</li>
+
+						<li class="nav-item dropdown">
+				<div class="scene">
+					<div class="box">
+						<div class="front face">
+							<h1><i class="fa fa-sign-in" style="color: yellow; text-align: center;"></i></h1>
+						</div>
+						<div class="right face">
+				<a href="" id="navbardrop" class="nav-link dropdown-toggle" data-toggle="dropdown" style="color: blue;"><h5 style="color: yellow;">
+					<b>Login</b></h5></a>
+						</div>
+					</div>
+				</div>
+			</li>
+
+			<li class="nav-item dropdown">
+				<div class="scene">
+					<div class="box">
+						<div class="front face">
+							<h1><i class="fa fa-user" style="color: yellow; text-align: center;"></i></h1>
+						</div>
+						<div class="right face">
+				<a href="" id="navbardrop" class="nav-link dropdown-toggle" data-toggle="dropdown" style="color: yellow;"><h5 style="color: yellow;">
+					<b>Admin</b></h5></a>
+						</div>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+</nav>
+<!-- Nav bar End-->
+<div style="background-color: #000000;">
+<br><br>
+<!--Start carousels-->
+<div class="carousel slide" id="demo" data-ride="carousel">
+	<ul class="carousel-indicators">
+		<li data-target="#demo" data-slide-to="0" class="active"></li>
+		<li data-target="#demo" data-slide-to="1" class="active"></li>
+		<li data-target="#demo" data-slide-to="2" class="active"></li>
+		<li data-target="#demo" data-slide-to="3" class="active"></li>
+		<li data-target="#demo" data-slide-to="4" class="active"></li>
+	</ul>
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<center>
+			<img src="images/images.jpg" style="width: 900px; height: 450px;">
+			<div class="carousel-caption mycaption">
+				<h2>Laughter is brightest, 
+				where food is best</h2>
+			</div>
+		</center>
+		</div>
+		<div class="carousel-item">
+			<center>
+			<img src="images/images14.jpg" style="width: 900px; height: 450px;">
+			<div class="carousel-caption mycaption">
+				<h2>People who love to eat 
+				arealways the best peole</h2>
+			</div>
+		</center>
+		</div>
+		<div class="carousel-item">
+			<center>
+			<img src="images/images7.jpg" style="width: 900px; height: 450px;">
+			<div class="carousel-caption mycaption">
+				<h2>One create well, love well,
+				sleep well, if one has not 
+			dined well</h2>
+			</div>
+		</center>
+		</div>
+		<div class="carousel-item">
+			<center>
+			<img src="images/images8.jpg" style="width: 900px; height: 450px;">
+			<div class="carousel-caption mycaption">
+				<h2>food id the ingredient that 
+				binds us together</h2>
+			</div>
+		</center>
+		</div>
+		<div class="carousel-item">
+			<center>
+			<img src="images/download1.jpg" style="width: 900px; height: 450px;">
+			<div class="carousel-caption mycaption">
+				<h2>Health is wealth</h2>
+			</div>
+		</center>
+		</div>
+		
+	</div>
+	<a href="#demo" class="carousel-control-prev" data-slide="prev">
+		<span class="carousel-control-prev-icon"></span>
+	</a>
+	<a href="#demo" class="carousel-control-next" data-slide="next">
+		<span class="carousel-control-next-icon"></span>
+	</a>
+</div>
+
+<br><br>
+</div>
+<!--End of Carousels-->
+
+<!--Top Ordered veg product-->
+<div class="section" style="background-color:#ffe6f3; padding-right: 10px; padding-left: 10px;">
+	<h6><b>Top veg ordered</b></h6>
+	<a href="">View more...</a>
+	<div class="row">
+		<div class="col-sm-3">
+			<div class="card">
+				<div class="card-header text-black text-center" style="background-color: #ff99ce;">
+					<h3>Food name</h3>
+				</div>
+				<div class="card-body" style="background-color:#ffcce6;">
+					<img src="images/images8.jpg" style="width: 270px; height: 140px;">
+					<p>Comment:- &nbsp <input type="text" name="" style="border-bottom: 2px dotted; background-color: transparent;"></p>
+					<p>views.........</p>
+					<p>rating........</p>
+				</div>
+				<div class="card-footer" style="background-color: #ff99ce;">
+					<a><button type="button" class="btn btn-dark">Order</button></a>
+				</div>
+				
+			</div>
+			
+		</div>
+		
+
+		<div class="col-sm-3">
+			<div class="card">
+				<div class="card-header text-black text-center" style="background-color: #ff99ce;">
+					<h3>Food name</h3>
+				</div>
+				<div class="card-body" style="background-color:#ffcce6;">
+					<img src="images/image6.jpg" style="width: 270px; height: 140px;">
+					<p>Comment:- &nbsp <input type="text" name="" style="border-bottom: 2px dotted; background-color: transparent;"></p>
+					<p>views.........</p>
+					<p>rating........</p>
+				</div>
+				<div class="card-footer" style="background-color: #ff99ce;">
+					<a><button type="button" class="btn btn-dark">Order</button></a>
+				</div>
+				
+			</div>
+			
+		</div>
+		
+
+		<div class="col-sm-3">
+			<div class="card">
+				<div class="card-header text-black text-center" style="background-color: #ff99ce;">
+					<h3>Food name</h3>
+				</div>
+				<div class="card-body" style="background-color:#ffcce6;">
+					<img src="images/images7.jpg" style="width: 270px; height: 140px;">
+					<p>Comment:- &nbsp <input type="text" name="" style="border-bottom: 2px dotted; background-color: transparent;"></p>
+					<p>views.........</p>
+					<p>rating........</p>
+				</div>
+				<div class="card-footer" style="background-color: #ff99ce;">
+					<a><button type="button" class="btn btn-dark">Order</button></a>
+				</div>
+				
+			</div>
+			
+		</div>
+		
+
+		<div class="col-sm-3">
+			<div class="card">
+				<div class="card-header text-black text-center" style="background-color: #ff99ce;">
+					<h3>Food name</h3>
+				</div>
+				<div class="card-body" style="background-color:#ffcce6;">
+					<img src="images/image5.jpg" style="width: 270px; height: 140px;">
+					<p>Comment:- &nbsp <input type="text" name="" style="border-bottom: 2px dotted; background-color: transparent;"></p>
+					<p>views.........</p>
+					<p>rating........</p>
+				</div>
+				<div class="card-footer" style="background-color: #ff99ce;">
+					<a><button type="button" class="btn btn-dark">Order</button></a>
+				</div>
+				
+			</div>
+			
+		</div>
+		
+	</div>
+	
+</div>
+
+<!--End of veg ordered product-->
+
+<!--start of top odered non-veg product-->
+
+
+
+
+<!--Top Ordered veg product-->
+<div class="section" style="background-color:#ffe6f3; padding-right: 10px; padding-left: 10px;">
+	<h6><b>Top non-veg ordered</b></h6>
+	<a href="">View more...</a>
+	<div class="row">
+		<div class="col-sm-3">
+			<div class="card">
+				<div class="card-header text-black text-center" style="background-color: #ff99ce;">
+					<h3>Food name</h3>
+				</div>
+				<div class="card-body" style="background-color:#ffcce6;">
+					<img src="images/images.jpg" style="width: 270px; height: 140px;">
+					<p>Comment:- &nbsp <input type="text" name="" style="border-bottom: 2px dotted; background-color: transparent;"></p>
+					<p>views.........</p>
+					<p>rating........</p>
+				</div>
+				<div class="card-footer" style="background-color: #ff99ce;">
+					<a><button type="button" class="btn btn-dark">Order</button></a>
+				</div>
+				
+			</div>
+			
+		</div>
+		
+
+		<div class="col-sm-3">
+			<div class="card">
+				<div class="card-header text-black text-center" style="background-color: #ff99ce;">
+					<h3>Food name</h3>
+				</div>
+				<div class="card-body" style="background-color:#ffcce6;">
+					<img src="images/images1.jpg" style="width: 270px; height: 140px;">
+					<p>Comment:- &nbsp <input type="text" name="" style="border-bottom: 2px dotted; background-color: transparent;"></p>
+					<p>views.........</p>
+					<p>rating........</p>
+				</div>
+				<div class="card-footer" style="background-color: #ff99ce;">
+					<a><button type="button" class="btn btn-dark">Order</button></a>
+				</div>
+				
+			</div>
+			
+		</div>
+		
+
+		<div class="col-sm-3">
+			<div class="card">
+				<div class="card-header text-black text-center" style="background-color: #ff99ce;">
+					<h3>Food name</h3>
+				</div>
+				<div class="card-body" style="background-color:#ffcce6;">
+					<img src="images/images4.jpg" style="width: 270px; height: 140px;">
+					<p>Comment:- &nbsp <input type="text" name="" style="border-bottom: 2px dotted; background-color: transparent;"></p>
+					<p>views.........</p>
+					<p>rating........</p>
+				</div>
+				<div class="card-footer" style="background-color: #ff99ce;">
+					<a><button type="button" class="btn btn-dark">Order</button></a>
+				</div>
+				
+			</div>
+			
+		</div>
+		
+
+		<div class="col-sm-3">
+			<div class="card">
+				<div class="card-header text-black text-center" style="background-color: #ff99ce;">
+					<h3>Food name</h3>
+				</div>
+				<div class="card-body" style="background-color:#ffcce6;">
+					<img src="images/images11.jpg" style="width: 270px; height: 140px;">
+					<p>Comment:- &nbsp <input type="text" name="" style="border-bottom: 2px dotted; background-color: transparent;"></p>
+					<p>views.........</p>
+					<p>rating........</p>
+				</div>
+				<div class="card-footer" style="background-color: #ff99ce;">
+					<a><button type="button" class="btn btn-dark">Order</button></a>
+				</div>
+				
+			</div>
+			
+		</div>
+		
+	</div>
+	
+</div>
+
+<!--end of top non-veg product-->
+
+
+<!--Startof footer part-->
+<div class="text-center text-white section" style="background-color:#1a001a;">
+	<div class="row">
+		<div class="col-lg-6">
+		<h1>Location</h1>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3742.5925102322494!2d85.80156001439516!3d20.2757278184344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19a7814295a6d9%3A0x89a5c857eaa26be9!2sDelta%20Square%2C%20Trinathvihar%2C%20Delta%20Colony%2C%20Gopabandhu%20Nagar%2C%20Bhubaneswar%2C%20Odisha%20751008!5e0!3m2!1sen!2sin!4v1568317154188!5m2!1sen!2sin" width="400" height="250" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+		</div >
+
+		<div class="col-lg-3" style="margin-top: 90px;">
+		<a href=""><h5>Information</h5></a><br>
+		<a href=""><h5>About Us</h5></a><br>
+		<a href=""><h5>Contact Us</h5></a><br>
+		<a href=""><h5>My Order</h5></a><br>
+		</div>
+
+		<div class="col-lg-3" style="float: left;">
+			<a><p><i class="fa fa-facebook" style="height: 20px; width: 20px;" ></i> &nbsp Facebook</p></a><br>
+			<a><p><i class="fa fa-envelope"></i> &nbsp G-Mail</p></a><br>
+			<a><p><i class="fa fa-whatsapp"></i> &nbsp WhatsApp</p></a><br>
+			<a><p><i class="fa fa-instagram"></i>&nbsp Inatagram</p></a><br>
+			<a><p><i class="fa fa-twitter"></i>&nbsp   Twitter</p></a><br>
+		</div>
+
+
+	</div>
+</div>
+</body>
+</html>
